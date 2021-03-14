@@ -1,0 +1,480 @@
+* {
+    font-family: 'Rajdhani', sans-serif;
+}
+
+body {
+   background: rgb(2, 119, 94);
+}
+
+section.sec1 {
+    
+    height: 50vh;
+    
+} 
+
+div.titleImg {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    margin-top: 50px;
+}
+/* Francisco Fernandes animation e css */
+h1 {
+    display: inline-block;
+    line-height: 0.8;
+    font-size: 110px;
+    color:  rgb(46, 43, 43);
+    animation: type 2s steps(11) forwards, blink_cursor 1s linear 2.2;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+@keyframes type{
+    from {
+        width: 0ch;   /* numero de caracteres */
+    }
+    to {
+        width: 11ch;
+    }
+}
+
+@keyframes blink_cursor {
+    0%,100% {
+      border-right:1px solid #111;
+    }
+  }
+
+
+
+
+p.p1 {
+    position: absolute;
+    font-size: 18px;
+    top: 30.2%;
+    left: 38.1%;  
+    color: rgb(46, 43, 43);
+    font-weight: bold;
+    animation: webdev 2s steps(13);
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+@keyframes webdev{
+    0% {
+        width: 0ch;   /* numero de caracteres */
+    }
+    100% {
+        width: 13ch;
+    }
+}
+
+
+
+.rectangle {
+    
+    height: 6px;
+    width: 400px;
+    background-color: rgb(46, 43, 43) ;
+    border-radius: 8px;
+    top: 51.2%;
+    left: 38.3%;
+}
+
+.all {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    margin: -35px 30px;
+}
+
+p.p2 {
+    font-size: 70px;
+    color: rgb(46, 43, 43);
+    margin: 15px;
+}
+
+p.maia {
+    font-size: 70px;
+    color: rgb(46, 43, 43);
+    margin: 15px;
+}
+
+img{
+    margin-right: 10px; 
+    width: 155px;
+    height: 155px;
+    border-radius: 50%;  
+    opacity: 0.80;  
+}
+
+/*  Parte 2*/
+
+/* section.sec2 {
+    background: white;
+    
+} */
+
+/*divisao do container*/
+div.row {
+    display: flex;
+}
+
+.column {
+    flex: 50%;
+   
+}
+/*--- --- --- ---*/
+
+/*  Sobre mim*/
+h2.about {
+    color: rgb(46, 43, 43);
+    margin-left: 100px;
+    padding-top: 70px;   
+}
+
+p.p3 {
+    
+    color: rgb(46, 43, 43);
+    margin-left: 100px;
+    
+}
+
+.container {
+    background-color: white;
+    border-radius: 35px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    height: 700px;
+    opacity: 0.9;
+}
+
+/*  Educação  */
+
+div.timeline {
+    height: 90px;
+    margin-left: 50px;
+}
+
+h2.education {
+    color: rgb(46, 43, 43);
+    margin-left: 100px;
+    padding-top: 35px;
+    height: 50px;
+}
+
+
+
+.circle1 {
+    position: relative;
+    height: 18px;
+    width: 18px;
+    background-color: rgb(46, 43, 43);
+    border-radius: 50%;
+    top: 22px ;
+    left: 5.5%;
+}
+.rect1{
+    position: relative;
+    top: 11px;
+    left: 6%;
+    height: 6px;
+    width: 630px;
+    /*background-color: rgb(46, 43, 43) ; */
+    border-radius: 8px;
+    background: linear-gradient(to right, rgb(46,43,43) 0%, rgb(2,119,94) 100%);
+    
+}
+
+/*quarto circulo*/
+.circle2 {
+    position: relative;
+    height: 18px;
+    width: 18px;
+    background-color: rgb(46, 43, 43);
+    border-radius: 50%;
+    top: -19px ;
+    left: 40.5%;
+}
+/*segundo circulo*/
+.circle3 {
+    position: relative;
+    height: 18px;
+    width: 18px;
+    background-color: rgb(46, 43, 43);
+    border-radius: 50%;
+    top: -1px ;
+    left: 30.3%;
+}
+
+.circle4 {
+    position: relative;
+    height: 18px;
+    width: 18px;
+    background-color: rgb(46, 43, 43);
+    border-radius: 50%;
+    top: -37px ;
+    left: 52.5%;
+}
+
+.circle5 {
+
+    position: relative;
+    height: 18px;
+    width: 18px;
+    background-color: rgb(46, 43, 43);
+    border-radius: 50%;
+    top: -55px ;
+    left: 76%;
+}
+
+ul.timelineup{
+    display: flex;
+}
+
+ul.timelinedown{
+    display: flex;
+}
+
+p.escola {
+    margin-left: 40px;
+    margin-top: -105px;
+}
+p.economia {
+    margin-left: 43px;
+    
+    margin-top: -90px;
+    color: rgb(2,119,94);
+}
+
+p.isep {
+    margin-top: -105px;
+    margin-left: 60px;
+}
+p.ano0 {
+    margin-left: 61px;
+    margin-top: -90px;
+    color: rgb(2, 119, 94)
+}
+
+p.esmad {
+    margin-top: -105px;
+    margin-left: 115px;
+    
+}
+p.curso{
+    margin-top: -90px;
+    margin-left: 35px;
+    color: rgb(2, 119, 94)
+}
+
+p.taw {
+    
+    margin-top: -105px;
+    margin-left: 72px;
+    
+}
+p.estagio {
+    
+    margin-top: -90px;
+    margin-left: 50px;
+    color: rgb(2, 119, 94)
+}
+
+/* Interesses */
+
+h2.interesses {
+    color: rgb(46, 43, 43);
+    margin-left: 100px; 
+}
+
+p.p4{
+    margin-left: 100px;
+}
+
+p.p5 {
+    margin-left: 100px;
+    
+}
+
+p.p6 {
+    margin-left: 100px;
+    color: rgb(2, 119, 94)
+}
+  
+/* Skills */
+
+h2.skills{
+  text-align:left;
+  padding-top: 70px;
+  color: rgb(46, 43, 43);
+}
+
+h3 {
+    color: rgb(46, 43, 43);
+    font-family:'Rajdhani', sans-serif;
+    font-size: 20px;
+    
+}
+
+.skill {
+    width: 500px;
+    margin-left: 30px;
+    margin-top: 70px;
+}
+
+.skill li{
+     margin: 20px 0;
+     list-style: none;
+}
+
+.bar{
+    background: rgb(216, 213, 213);
+    display: block;
+    height: 3px;
+    border: 2px solid rgb(43, 46, 45);
+    border-radius: 3px;
+    overflow: hidden;
+    
+    
+}
+
+.bar span{
+    height: 3px;
+    float: left;
+    background: rgb(2, 119, 94);
+}
+
+.html {
+    width: 90%;
+    animation: html 2s;
+}
+
+.css {
+    width: 85%;
+    animation: css 3s;
+}
+
+.javascript {
+    width: 70%;
+    animation: javascript 4s;
+}
+
+.react {
+    width: 50%;
+    animation: react 5s;
+}
+
+.sql {
+    width: 45%;
+    animation: sql 6s;
+}
+
+.csharp {
+   width: 15%;
+   animation: csharp 7s;
+}
+
+@keyframes html {
+    0% {
+        width: 0%;
+    }
+    100% {
+        width: 90%;
+    }
+}
+
+@keyframes css {
+    0% {
+        width: 0%;
+    }
+    100% {
+        width: 85%;
+    }
+}
+
+@keyframes javascript {
+    0% {
+        width: 0%;
+    }
+    100% {
+        width: 70%;
+    }
+}
+
+@keyframes react {
+    0% {
+        width: 0%;
+    }
+    100% {
+        width: 50%;
+    }
+}
+
+@keyframes sql {
+    0% {
+        width: 0%;
+    }
+    100% {
+        width: 45%;
+    }
+}
+
+@keyframes csharp {
+    0% {
+        width: 0%;
+    }
+    100% {
+        width: 15%;
+    }
+}
+
+/* Section 3 */
+
+.container1 {
+    background-color: white;
+    border-top: dashed;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-color: rgb(2, 119, 94);
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    height: 100px;
+    opacity: 0.9;
+}
+
+
+.mail {
+    margin-left: 100px;
+    margin-top: 37px;
+    text-align: center;
+}
+
+.socials {
+    margin-top: 18px;
+    margin-left: 255px;
+    
+}
+
+.socials ul{
+    display: flex;
+    
+    
+}
+
+.socials ul li{
+    list-style: none;
+    margin: 0 15px;   
+}
+
+.socials ul li .fa{
+    font-size: 20px;
+    line-height: 60px;
+    transition: .6s;
+    color: rgb(2, 119, 94)
+}
+  
+
+/* responsive */
